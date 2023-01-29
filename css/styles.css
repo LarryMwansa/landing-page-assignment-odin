@@ -49,3 +49,9 @@ body {
 .site-header a.active {
   background-color: dodgerblue;
   color: white;
+
+}
+
+.site-navigation {
+  float: right;
+}
