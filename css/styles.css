@@ -11,5 +11,21 @@ body {
 
     overflow: hidden;
     background-color: #1f2937;
-     padding: .5em 1em;
+    padding: .5em 1em;
 }
+
+
+.site-header a {
+
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 1.1250em;
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+
+
