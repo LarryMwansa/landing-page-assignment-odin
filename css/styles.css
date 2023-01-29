@@ -11,11 +11,37 @@ body {
 
     overflow: hidden;
     background-color: #1f2937;
-    padding: .5em 1em;
+    /* padding: .5em 1em; */
+}
+
+.site-identity {
+
+    float: left;
+}
+
+.site-navigation {
+
+    float: right;
+}
+
+.site-identity h1 {
+
+    display: inline-block;
+}
+
+.site-header a {
+
+    color: white;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 1.125em;
+    /* line-height: 25px; */
+    border-radius: 4px;
 }
 
 
-.site-header a {
+/* .site-header a {
 
     float: left;
     color: white;
@@ -61,3 +87,12 @@ body {
   margin: 0; 
   padding: 0;
 }
+
+
+.site-navigation li {
+  display: inline-block;
+  margin: 1.4em 1em 1em 1em;
+  color: white;
+} */
+
+
