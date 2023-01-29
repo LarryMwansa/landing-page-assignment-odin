@@ -4,3 +4,12 @@ body {
     margin: 0;
     box-sizing: border-box;
 }
+
+/* Header Styling */
+
+.site-header {
+
+    overflow: hidden;
+    background-color: #1f2937;
+     padding: .5em 1em;
+}
