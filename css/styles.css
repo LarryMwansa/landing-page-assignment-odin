@@ -55,3 +55,9 @@ body {
 .site-navigation {
   float: right;
 }
+
+
+.site-navigation ul, li {
+  margin: 0; 
+  padding: 0;
+}
