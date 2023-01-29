@@ -1,6 +1,6 @@
 body {
 
-    font-family: 'Roboto','Times','serif';
+    font-family: 'Roboto', 'Times', 'serif';
     margin: 0;
     box-sizing: border-box;
 }
@@ -14,58 +14,37 @@ body {
     /* padding: .5em 1em; */
 }
 
-.site-identity {
-
-    float: left;
-}
-
-.site-navigation {
-
-    float: right;
-}
-
-.site-identity h1 {
-
-    display: inline-block;
-}
-
 .site-header a {
-
     color: white;
     text-align: center;
     padding: 12px;
     text-decoration: none;
     font-size: 1.125em;
-    /* line-height: 25px; */
-    border-radius: 4px;
-}
-
-
-/* .site-header a {
-
-    float: left;
-    color: white;
-    text-align: center;
-    padding: 12px;
-    text-decoration: none;
-    font-size: 1.1250em;
     line-height: 25px;
     border-radius: 4px;
 }
 
 
-.site-identity h1 {
-  font-size: 1.5em;
-  margin: .7em 0 .3em 0;
-  display: inline-block;
+.site-identity {
 
+    float: left;
 }
+
 
 .site-identity img {
-  max-width: 55px;
-  float: left;
-  margin: 0 10px 0 0;
+
+    max-width: 55px;
+    float: left;
+    margin: 0 10px 0 0;
 }
+
+.site-identity h1 {
+
+    display: inline-block;
+    /* font-size: 20px; */
+    margin: .7em 0 .3em 0;
+}
+
 
 .site-header a:hover {
   background-color: #ddd;
@@ -75,24 +54,22 @@ body {
 .site-header a.active {
   background-color: dodgerblue;
   color: white;
-
 }
+
 
 .site-navigation {
-  float: right;
-}
 
+    float: right;
+}
 
 .site-navigation ul, li {
   margin: 0; 
   padding: 0;
 }
 
-
 .site-navigation li {
   display: inline-block;
   margin: 1.4em 1em 1em 1em;
   color: white;
-} */
-
+} 
 
