@@ -79,3 +79,19 @@ body {
 } 
 
 
+/* Hero Styling */
+
+.hero-container {
+  display: flex;
+  gap: 2em;
+  background-color: #1f2937;
+}
+
+.hero-text,.hero-image {
+  flex: 1;
+}
+
+.hero-text h1 {
+  font-family: ;
+}
+
