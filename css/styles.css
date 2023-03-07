@@ -13,7 +13,7 @@ body {
 
     overflow: hidden;
     background-color: #1f2937;
-    /* padding: .5em 1em; */
+    
 }
 
 .site-header a {
@@ -37,6 +37,8 @@ body {
 .site-identity {
 
     float: left;
+    margin-left: 60px;
+    padding-left: 50px;
 }
 
 
