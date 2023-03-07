@@ -141,4 +141,32 @@ body {
   height: auto;
 }
 
+/* Features Section */
+
+.features-heading {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  color: #1f2937;
+
+
+}
+
+.features-container {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+.features-item {
+  flex: 1;
+  width: 200px;
+  height: 200px;
+  border: solid 2px #3882F6;
+  border-radius: 5px;
+}
+
 
