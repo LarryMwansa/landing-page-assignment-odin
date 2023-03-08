@@ -1,10 +1,16 @@
 font-family: 'Roboto', sans-serif;
 
-body {
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
+body {
+    box-sizing: border-box;
     font-family: 'Roboto','serif';
     margin: 0;
-    box-sizing: border-box;
+    padding: 0;
 }
 
 /* Header Styling */
@@ -72,6 +78,8 @@ body {
 .site-navigation {
 
     float: right;
+    margin-right: 100px;
+    padding-right: 100px;
 }
 
 .site-navigation ul, li {
@@ -133,7 +141,6 @@ body {
   background-color: #3882F6;
   padding: 15px;
   border-radius: 5px;
-  
 }
 
 .hero-image img {
@@ -149,8 +156,6 @@ body {
   font-size: 36px;
   font-weight: 700;
   color: #1f2937;
-
-
 }
 
 .features-container {
@@ -169,4 +174,72 @@ body {
   border-radius: 5px;
 }
 
+/* Quote Section */
 
+.quote-section {
+  background-color: #E5E7EB;
+  padding: 50px;
+
+}
+
+.quote {
+  font-family: 'Roboto', sans-serif;
+  font-size: 36px;
+  font-style: italic;
+  padding-left: 300px;
+  padding-right: 300px;
+}
+
+.quote-author {
+  text-align: end;
+  font-family: 'Roboto', sans-serif;
+  font-style: bold;
+  padding-left: 300px;
+  padding-right: 400px;
+  line-height: 0.5em;
+}
+
+
+/* CTA section */
+
+.cta-section {
+  padding-top: 50px;
+  padding-left: 200px;
+  padding-bottom: 50px;
+  padding-right: 200px;
+  
+}
+
+.cta-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #3882F6;
+  color: #ffffff;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.cta-container a {
+  display: inline-block;
+  border: solid 1px white;
+  padding: 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+}
+
+.cta-container a:hover {
+  border: solid 1px #1f2937;
+  color: #1f2937;
+}
+
+/* Footer Section Styling */
+
+footer {
+  text-align: center;
+  color: #E5E7EB;
+  background-color: #1f2937;
+  padding: 10px;
+}
